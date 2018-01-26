@@ -13,7 +13,7 @@ const filter = require('callbag-filter');
 
 const source = filter(x => x % 2)(fromIter([1,2,3,4,5]));
 
-source(0, iterate(x => console.log(x))); // 1
-                                         // 3
-                                         // 5
+iterate(x => console.log(x))(source); // 1
+                                      // 3
+                                      // 5
 ```
