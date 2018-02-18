@@ -6,13 +6,15 @@
     "type": "git",
     "url": "git+https://github.com/staltz/callbag-filter.git"
   },
-  "main": "index.js",
+  "main": "readme.js",
   "scripts": {
     "test": "tape test.js"
   },
   "author": "staltz.com",
   "license": "MIT",
-  "keywords": ["callbag"],
+  "keywords": [
+    "callbag"
+  ],
   "devDependencies": {
     "tape": "^4.8.0"
   }

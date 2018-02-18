@@ -1,5 +1,5 @@
 const test = require('tape');
-const filter = require('./index');
+const filter = require('./readme');
 
 test('it filters a pullable source', t => {
   t.plan(26);
@@ -154,7 +154,7 @@ test('it filters an async finite listenable source', t => {
 test('it returns a source that disposes upon upwards END', t => {
   t.plan(15);
   const upwardsExpected = [
-    [0, 'function'], 
+    [0, 'function'],
     [1, 'undefined'],
     [2, 'undefined']
   ];
