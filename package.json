@@ -1,6 +1,6 @@
 {
   "name": "callbag-filter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Callbag operator that conditionally lets data pass through",
   "repository": {
     "type": "git",
